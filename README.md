@@ -36,6 +36,9 @@ End with an example of getting some data out of the system or using it for a lit
 
 ![image](https://user-images.githubusercontent.com/51584570/83329347-9bc6f680-a2a6-11ea-9ae0-1fd9d33ebf26.png)
 
+![image](https://user-images.githubusercontent.com/51584570/83330330-d41d0380-a2ab-11ea-95e3-f172dce7670c.png)
+
+
 ## Running the tests
 
 Explain how to run the automated tests for this system
