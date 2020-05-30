@@ -104,16 +104,16 @@ function UploadVideoPage(props) {
         };
         setFilePath(response.data.filePath);
 
-        // gerenate thumbnail with this filepath !
+        //gerenate thumbnail with this filepath !
 
-        // axios.post("/api/video/thumbnail", variable).then((response) => {
-        //   if (response.data.success) {
-        //     setDuration(response.data.fileDuration);
-        //     setThumbnail(response.data.thumbsFilePath);
-        //   } else {
-        //     alert("Failed to make the thumbnails");
-        //   }
-        // });
+        axios.post("/api/video/thumbnail", variable).then((response) => {
+          if (response.data.success) {
+            setDuration(response.data.fileDuration);
+            setThumbnail(response.data.thumbsFilePath);
+          } else {
+            alert("Failed to make the thumbnails");
+          }
+        });
       } else {
         alert("failed to save the video in server");
       }
