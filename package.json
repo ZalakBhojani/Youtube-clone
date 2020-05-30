@@ -25,6 +25,7 @@
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.26.0",
     "mongoose": "^5.9.16",
+    "multer": "^1.4.2",
     "react-redux": "^5.0.7",
     "saslprep": "^1.0.3",
     "supports-color": "^7.1.0"
