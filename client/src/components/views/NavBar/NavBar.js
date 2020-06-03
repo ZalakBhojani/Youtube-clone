@@ -3,7 +3,7 @@ import LeftMenu from "./Sections/LeftMenu";
 import RightMenu from "./Sections/RightMenu";
 import { Drawer, Button, Icon } from "antd";
 import "./Sections/Navbar.css";
-const Logo = require("../../../assets/images/HappyTubeLogo.png");
+const Logo = require("../../../assets/images/YoutubeLogo.png");
 
 function NavBar() {
   const [visible, setVisible] = useState(false);
@@ -26,7 +26,7 @@ function NavBar() {
           <img
             src={Logo}
             alt="Logo"
-            style={{ width: "100%", marginTop: "-5px" }}
+            style={{ width: "50%", marginTop: "-5px" }}
           />
         </a>
       </div>
