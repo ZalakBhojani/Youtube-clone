@@ -22,7 +22,7 @@ function LandingPage() {
   const renderCards = Videos.map((video, index) => {
     var minutes = Math.floor(video.duration / 60);
     var seconds = Math.floor(video.duration - minutes * 60);
-    console.log(video._id);
+
     return (
       <Col key={video._id} lg={6} md={8} xs={24}>
         <div style={{ position: "relative" }}>
