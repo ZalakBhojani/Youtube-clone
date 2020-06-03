@@ -41,14 +41,23 @@ Open "Youtube-clone/server/config" and create "dev.js"
 Replace <password> with the password for the user <username>
 to setup MongoDB environment
 
+### Requirements
+
+ffmpeg on developer machine (used to generate metadata about thumbnail)
+
 ### Add-Ons
 
+- [X] Creating Thumbnails using ffmpeg
 - [X] Creating subscribed videos routing
 - [ ] Adding depencies and their usage for futher usage
 - [ ] Understand caching and implementing it
 - [ ] Implementing notification when subscribed videos drop
 
+## Demo
+
+![Clone demo](demo/demo.gif)
+
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+In progress
 
