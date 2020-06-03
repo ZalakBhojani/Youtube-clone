@@ -11,7 +11,6 @@ function LandingPage() {
   useEffect(() => {
     axios.get("/api/video/getVideos").then((response) => {
       if (response.data.success) {
-        // console.log(response.data.videos)
         setVideos(response.data.videos);
       } else {
         alert("Failed to get Videos");
