@@ -45,17 +45,18 @@ to setup MongoDB environment
 
 ffmpeg on developer machine (used to generate metadata about thumbnail)
 
-### Add-Ons
+## Demo
+
+![Clone demo](demo/demo.gif)
+
+
+## Add-Ons
 
 - [X] Creating Thumbnails using ffmpeg
 - [X] Creating subscribed videos routing
 - [ ] Adding depencies and their usage for futher usage
 - [ ] Understand caching and implementing it
 - [ ] Implementing notification when subscribed videos drop
-
-## Demo
-
-![Clone demo](demo/demo.gif)
 
 ## Deployment
 
